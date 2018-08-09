@@ -1,0 +1,306 @@
+    1  ls
+    2  cd /home/
+    3  ls
+    4  cd EsohKev/
+    5  ls
+    6  xdg-open 
+    7  cd /home/
+    8  cd ../
+    9  ls
+   10  cd bin/
+   11  ls
+   12  mysql
+   13  mysql -u root -p
+   14  cd /home/
+   15  ls
+   16  wget rawgit.com/transcode-open/apt-cyg/master/apt-cyg -P /bin/
+   17  chmod +x /bin/apt-cyg
+   18  apt-cyg install bash-completion
+   19  apt-cyg install git-svn
+   20  apt-cyg install rsync
+   21  cd ~
+   22  ls
+   23  pwd
+   24  mkdir bin
+   25  cd bin/
+   26  ls
+   27  wget https://raw.github.com/git/git/master/contrib/completion/git-prompt.sh
+   28  source git-prompt.sh 
+   29  ls
+   30  ls
+   31  curl https://github.com/git/git/raw/master/contrib/completion/git-completion.bash -OL
+   32  apt-cyg install xdg
+   33  apt-cyg install xdg-open
+   34  calc.exe 
+   35  r
+   36  R
+   37  Rscript.exe 
+   38  R
+   39  cd ../
+   40  ls
+   41  ls
+   42  R
+   43  git
+   44  LS
+   45  Cd ../
+   46  ls
+   47  cd
+   48  pwd
+   49  cd ../
+   50  ls
+   51  cd IMPUTE2/
+   52  ls
+   53  tar -zxvf impute_v2.X.Y_i386.tgz
+   54  tar -zxvf impute_v2.X.Y_i386.tar.gz
+   55  unzip impute_v2.3.2_x86_64_dynamic.tgz 
+   56  tar
+   57  tar --help
+   58  gunzip impute_v2.3.2_x86_64_dynamic.tgz 
+   59  ls
+   60  gunzip --help
+   61  gunzip -c impute_v2.3.2_x86_64_dynamic.tgz 
+   62  ls
+   63  ls
+   64  ls
+   65  exit
+   66  ls
+   67  cd ../IMPUTE2/
+   68  ls
+   69  cat impute_v2.3.2_x86_64_dynamic.tar 
+   70  ls
+   71  tar.exe -xzvf impute_v2.3.2_x86_64_dynamic.tar 
+   72  tar.exe -xvf impute_v2.3.2_x86_64_dynamic.tar 
+   73  ls
+   74  cd impute_v2.3.2_x86_64_dynamic/
+   75  ls
+   76  ls
+   77  ls
+   78  iexit
+   79  exit
+   80  ls
+   81  cd ../IMPUTE2/
+   82  ls
+   83  cd impute_v2.3.2_x86_64_dynamic/
+   84  ls
+   85  impute2  -m ./Example/example.chr22.map  -h ./Example/example.chr22.1kG.haps  -l ./Example/example.chr22.1kG.legend  -g ./Example/example.chr22.study.gens  -strand_g ./Example/example.chr22.study.strand  -int 20.4e6 20.5e6  -Ne 20000  -o ./Example/example.chr22.one.phased.impute2
+   86  cp impute2 /bin/
+   87  impute2  -m ./Example/example.chr22.map  -h ./Example/example.chr22.1kG.haps  -l ./Example/example.chr22.1kG.legend  -g ./Example/example.chr22.study.gens  -strand_g ./Example/example.chr22.study.strand  -int 20.4e6 20.5e6  -Ne 20000  -o ./Example/example.chr22.one.phased.impute2
+   88  notepad.exe 
+   89  ls
+   90  notepad.exe &
+   91  impute2 -m Example/example.chr22.map
+   92  impute2 -prephase_g -m Example/example.chr22.map 
+   93  /bin/impute2 -m Example/example.chr22.map 
+   94  ls
+   95  ./impute2  -m ./Example/example.chr22.map  -h ./Example/example.chr22.1kG.haps  -l ./Example/example.chr22.1kG.legend  -g ./Example/example.chr22.study.gens  -strand_g ./Example/example.chr22.study.strand  -int 20.4e6 20.5e6  -Ne 20000  -o ./Example/example.chr22.one.phased.impute2
+   96  ./impute2 -m Example/example.chr22.map 
+   97  notepad.exe impute2 
+   98  noexit
+   99  exit
+  100  ssh-keygen -t rsa
+  101  ssh-keygen -t rsa
+  102  ls ~/.ssh/*.pub
+  103  cat ~/.ssh/*.pub
+  104  env=~/.ssh/agent.env
+  105  agent_load_env () { test -f "$env" && . "$env" >| /dev/null ; }
+  106  agent_start () {     (umask 077; ssh-agent >| "$env");     . "$env" >| /dev/null ; }
+  107  agent_load_env
+  108  # agent_run_state: 0=agent running w/ key; 1=agent w/o key; 2= agent not running
+  109  agent_run_state=$(ssh-add -l >| /dev/null 2>&1; echo $?)
+  110  if [ ! "$SSH_AUTH_SOCK" ] || [ $agent_run_state = 2 ]; then     agent_start;     ssh-add; elif [ "$SSH_AUTH_SOCK" ] && [ $agent_run_state = 1 ]; then     ssh-add; fi
+  111  unset env
+  112  ssh -T git@github.com
+  113  git clone git@github.com:BioinfoNet/OpenScienceKE.git
+  114  ls
+  115  pwd
+  116  mkdir Git
+  117  mv OpenScienceKE Git/
+  118  ls
+  119  cd bin/
+  120  ls
+  121  ls
+  122  cd ../Git/
+  123  ls
+  124  cd OpenScienceKE/
+  125  ls
+  126  cd assets/
+  127  ls
+  128  cd ../
+  129  ls
+  130  pwd
+  131  cd ../
+  132  cd OpenScienceKE/
+  133  git clone git@github.com:BioinfoNet/Introduction-to-Linux.git
+  134  ls
+  135  ls
+  136  cd Introduction-to-Linux/
+  137  ls
+  138  cd 'Images/'
+  139  ls
+  140  ls ./../Introduction\ to\ Linux.
+  141  ls ./../Introduction\ to\ Linux/
+  142  ls ./../../Introduction-to-Linux/
+  143  ls /../../Ils
+  144  pwd
+  145  ls
+  146  ls
+  147  cd ../
+  148  ls
+  149  cd ../
+  150  ls
+  151  cd ../
+  152  ls
+  153  cd ../
+  154  ls
+  155  cd Git/
+  156  ls
+  157  cd OpenScienceKE/
+  158  ls
+  159  cd 
+  160  ls
+  161  cd Git/
+  162  l
+  163  ls
+  164  cd OpenScienceKE/
+  165  ls
+  166  cd Introduction-to-Linux/
+  167  ls
+  168  cd ../
+  169  ls
+  170  mkdir newdir
+  171  ls
+  172  mkdir newdir2
+  173  ls
+  174  rm newdir2/
+  175  rm -p newdir2/
+  176  rmdir newdir2/
+  177  ls
+  178  ls
+  179  mv newdir newdir1
+  180  ls
+  181  ls -lh
+  182  cd Introduction-to-Linux/
+  183  ls
+  184  ls -lh
+  185  ls
+  186  ls
+  187  ls
+  188  cd cd ../
+  189  ls
+  190  cd ../
+  191  ls
+  192  cd ../
+  193  cd ../
+  194  ls
+  195  cd Git/
+  196  ls
+  197  cd OpenScienceKE/
+  198  ls
+  199  ls -lh
+  200  ls -alh
+  201  ls -lh
+  202  cd ../
+  203  ls
+  204  mkdir sshdemo
+  205  ls
+  206  cd sshdemo/
+  207  ls
+  208  git clone git@github.com:esohkevin/SSH-Demo.git
+  209  ls
+  210  cd SSH-Demo/
+  211  ls
+  212  cat README.md 
+  213  ls
+  214  cat README.md 
+  215  vi sshKeys.txt 
+  216  cat sshKeys.txt 
+  217  git push sshKeys.txt
+  218  git push
+  219  ls
+  220  ls
+  221  git clone git@github.com:esohkevin/MyFirstFork.git
+  222  ls
+  223  mv MyFirstFork ../
+  224  ls
+  225  cd ../
+  226  ls
+  227  cd MyFirstFork/
+  228  ls
+  229  cat README.md 
+  230  ls
+  231  vi README.md 
+  232  ls
+  233  git
+  234  cd ../SSH-Demo/
+  235  ls
+  236  git commit --help
+  237  git commit
+  238  git config --global user.esohkevin "esohkevin"
+  239  git commit
+  240  git config --global user.esohkevin4@gmail.com "esohkevin4@gmail.com"
+  241  git commit
+  242  git push
+  243  git config --global user.email "you@example.com"
+  244  git config --global user.name "Your Name"
+  245  git config --global user.email esohkevin4@gmail.com
+  246  git config --global user.name "esohkevin"
+  247  git status
+  248  git commit -a "Updated the ssh text file"
+  249  git commit "Updated the ssh text file"
+  250  git commit -m "Updated the ssh text file"
+  251  git status
+  252  git commit -m "Updated"
+  253  ls
+  254  git push
+  255  git status
+  256  git commit
+  257  git commit -a
+  258  git commit -a
+  259  ls
+  260  git commit -m Update
+  261  git status
+  262  git commit
+  263  git commit sshKeys.txt 
+  264  git commit sshKeys.txt -m "Updated"
+  265  ls
+  266  git status
+  267  cd ../
+  268  ls
+  269  cd MyFirstFork/
+  270  ls
+  271  git commit README.md -m "Edited with my details"
+  272  git status
+  273  ls
+  274  git push
+  275  vi README.md 
+  276  git commit README.md -m "Edited with my details"
+  277  git push
+  278  vi README.md 
+  279  git commit README.md -m "Edited with my details"
+  280  git push
+  281  git merge 
+  282  git merge origin/master
+  283  ls
+  284  vi README.md 
+  285  git fetch
+  286  git merge origin/master
+  287  cd ../
+  288  ls
+  289  cd ../
+  290  ls
+  291  cd OpenScienceKE/
+  292  ls
+  293  cd Introduction-to-Linux/
+  294  ls
+  295  cd ../
+  296  ls
+  297  git init
+  298  pwd
+  299  cd ../
+  300  ls
+  301  cd sshdemo/
+  302  ls
+  303  cd MyFirstFork/
+  304  git remote add origin git@github.com:BioinfoNet/MyFirstFork.git
+  305  history
+  306  history > history.txt
