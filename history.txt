@@ -304,3 +304,46 @@
   304  git remote add origin git@github.com:BioinfoNet/MyFirstFork.git
   305  history
   306  history > history.txt
+  307  ls
+  308  git status 
+  309  ls
+  310  git add history.txt 
+  311  git status 
+  312  clear
+  313  alias 'l= clear'
+  314  l
+  315  git commit -m "Created a history file of all linux commands ran"
+  316  git status
+  317  ls
+  318  echo "Basic Git commands" > gitBasics.md
+  319  vi gitBasics.md 
+  320  ls
+  321  git status
+  322  git add 
+  323  git add gitBasics.md 
+  324  git status
+  325  git commit -m "Created a file for basic git commands"
+  326  git status
+  327  git push -u origin master
+  328  ls
+  329  vi gitBasics.md 
+  330  git status
+  331  git add gitBasics.md 
+  332  git commit -m "Updated"
+  333  git push -u origin master
+  334  git status
+  335  vit gitBasics.md 
+  336  ls
+  337  vi gitBasics.md 
+  338  git status
+  339  git add gitBasics.md 
+  340  git commit -m "Updated"
+  341  git push -u origin master
+  342  vi gitBasics.md 
+  343  git add gitBasics.md 
+  344  git status 
+  345  git commit -m "added more commands"
+  346  git status 
+  347  git push -u origin master
+  348  git status 
+  349  history > history.txt 
