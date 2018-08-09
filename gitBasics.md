@@ -2,7 +2,7 @@
 
 ### Clone a git repository to your local machine
 ```
-git clone <"paste the url of the repository">
+> git clone <"paste the url of the repository">
 ```
 
 ### Set a remote repository you cloned or forked
