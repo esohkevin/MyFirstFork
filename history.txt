@@ -1,18 +1,4 @@
-    1  ls
-    2  cd /home/
-    3  ls
-    4  cd EsohKev/
-    5  ls
-    6  xdg-open 
-    7  cd /home/
-    8  cd ../
-    9  ls
-   10  cd bin/
-   11  ls
-   12  mysql
-   13  mysql -u root -p
-   14  cd /home/
-   15  ls
+
    16  wget rawgit.com/transcode-open/apt-cyg/master/apt-cyg -P /bin/
    17  chmod +x /bin/apt-cyg
    18  apt-cyg install bash-completion
