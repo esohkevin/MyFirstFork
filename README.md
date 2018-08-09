@@ -1,18 +1,20 @@
 # My First Fork
 Fork this repository and make changes to the README
 
-Name: Esoh Kev
+Name: **Esoh**
 
-Instituition: JKUAT
+Instituition: **JKUAT**
 
-##Intro
+Intro
+---
 I am at the OpenScienceKE to learn aspects of open science which are vital to research.
 These include:
 1. Open Access
 1. Open Source
 1. Open Data etc
 
-##Why Open Science
+Why Open Science
+---
 This is particularly important for _research reproducibility_ and _transparency_.
 It increases **dissemination of research findings** with the entire research community.
 
