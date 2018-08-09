@@ -2,7 +2,7 @@
 
 ### Clone a git repository to your local machine
 ```
-###git clone <"paste the url of the repository">
+git clone <"paste the url of the repository">
 ```
 
 ### Set a remote repository you cloned or forked
@@ -29,6 +29,10 @@
 ```
 
 ### Check status again to be sure
+```
+> git status
+```
+
 
 ### Commit the added files
 ```
@@ -36,6 +40,9 @@
 ```
 
 ### Chech the status again
+```
+> git status
+```
 
 ### Now push your committed files ti your online repository
 ```
