@@ -1,17 +1,43 @@
-Basic Git commands
----
+# Basic Git commands
 
-## Clone a git repository to your local machine
-```git clone <paste the url of the repository>
+### Clone a git repository to your local machine
+```
+###git clone <"paste the url of the repository">
 ```
 
-## Initialize the repository
-```git init
+### Set a remote repository you cloned or forked
+```
+> set remote
+> set <"url of the repository">
 ```
 
-## Edit or create files in the repository using Unix/Linux text editors like vim
+### Initialize the repository
+```
+> git init
+```
 
-## Check status to see files currently not tracked
-git status
-## Add the newly edited or created files to the tracking queue
+### Edit or create files in the repository using Unix/Linux text editors like vim
 
+### Check status to see files currently not tracked
+```
+> git status
+```
+
+### Add the newly edited or created files to the tracking queue
+```
+> git add <"file name">
+```
+
+### Check status again to be sure
+
+### Commit the added files
+```
+> git commit -m "Type a message to indicate you activity"
+```
+
+### Chech the status again
+
+### Now push your committed files ti your online repository
+```
+> git push -u origin master
+```
