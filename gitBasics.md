@@ -27,6 +27,11 @@ git clone <"paste the url of the repository">
 ```
 > git add <"file name">
 ```
+If you have not cloned an existing repository
+```
+> git remote add origin <server>
+> git remote add origin <url of repository>
+```
 
 ### Check status again to be sure
 ```
