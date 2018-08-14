@@ -4,12 +4,12 @@
    18  apt-cyg install bash-completion
    19  apt-cyg install git-svn
    20  apt-cyg install rsync
-   21  cd ~
-   22  ls
-   23  pwd
+   21  
+   22 
+   23
    24  mkdir bin
    25  cd bin/
-   26  ls
+   26 
    27  wget https://raw.github.com/git/git/master/contrib/completion/git-prompt.sh
    28  source git-prompt.sh 
    29  ls
@@ -18,8 +18,7 @@
    32  apt-cyg install xdg
    33  apt-cyg install xdg-open
    34  calc.exe 
-   35  r
-   36  R
+   35  
    37  Rscript.exe 
    38  R
    39  cd ../
