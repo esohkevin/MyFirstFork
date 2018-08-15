@@ -21,7 +21,7 @@ It increases **dissemination of research findings** with the entire research com
 Here is one of my favorite quotes\
 
 
->>Somewhere, something incredible is waiting to be known
+>Somewhere, something incredible is waiting to be known
 By Carl Sagan
  
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Carl_Sagan_Planetary_Society.JPG/220px-Carl_Sagan_Planetary_Society.JPG)
